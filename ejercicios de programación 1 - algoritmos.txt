@@ -1,0 +1,210 @@
+EJERCICIO 1
+Algoritmo areaTotalDelTerreno
+	escribir "ingrese la altura del triangulo"
+	leer A
+	Escribir "ingrese la base del triangulo"
+	leer B
+	Escribir "ingrese la altura del rectangulo"
+	leer C
+	Escribir "ingrese la base del rectangulo"
+	leer B
+	metrosCuadrados<- (A*B)/2+B*C
+	Escribir " El Área total del terreno es" ,metrosCuadrados
+FinAlgoritmo
+
+EJERCICIO 2
+Algoritmo precioPorMetroCubico
+	Escribir "ingrese la altura"
+	Leer A
+	Escribir "ingrese el largo"
+	Leer L
+	Escribir  "ingrese el ancho"
+	Leer B
+	Escribir "ingrese el precio por metro cubico"
+	leer P
+	metroCúbico<- A*L*B
+	Escribir "La cantidad de metros cúbicos es ", metroCúbico
+	MetroCubico<- metroCúbico*P
+	Escribir "El precio a pagar es ", MetroCubico
+FinAlgoritmo
+
+EJERCICIO 3
+Algoritmo capitalTotalFormadoYPorcentajeDeCadaUno
+	Escribir "ingrese el capital de michaela"
+	leer CP1
+	Escribir "ingrese el capital de Efraín"
+	leer CP2
+	Escribir "Ingrese el capital de Even"
+	leer CP3
+	CT<- CP1+CP2+CP3
+	PCP1<- (CP1/CT)*100
+	PCP2<- (CP2/CT)*100
+	PCP3<- (CP3/CT)*100
+	Escribir "el capital total es ", CT
+	Escribir "el porcentaje de capital que aporta Michaela es ", PCP1
+	Escribir "el porcentaje de capital que aporta Efraín es ", PCP2
+	Escribir "el porcentaje de capital que aporta Even es ", PCP3
+FinAlgoritmo
+
+EJERCICIO 4
+Algoritmo gananciasSegunAcciones
+	Escribir "ingrese las acciones del primer socio"
+	leer A
+	Escribir "ingrese las acciones del segundo socio"
+	leer B
+	Escribir "ingrese las acciones del tercer socio"
+	leer C
+	Escribir "ingrese la ganancia de un año"
+	leer G
+	K<- G/(A+B+C)
+	G1<- K*A
+	G2<- K*B
+	G3<- K*C
+	Escribir "las ganancias del primer socio segun sus acciones es ", G1
+	Escribir "las ganancias del segundo segun sus acciones es ", G2
+	Escribir "las ganancias del tercer  es ", G3
+FinAlgoritmo
+
+EJERCICIO 5
+Algoritmo precioVentaSegunPorcentajeGanancia
+	Escribir "Ingrese la el precio original de la pieza de automovil"
+	Leer P
+	Escribir "ingrese el porcentaje de ganancia"
+	leer G
+	K<- P*(G/100)
+	PF<- K+P
+	Escribir "El precio al cual se debe vender para obtener el porcentaje de ganancia indicado es ", PF
+	
+FinAlgoritmo
+
+EJERCICIO 6
+Algoritmo ejercicio6
+	Escribir "ingrese la cantidad de unidades"
+	leer A
+	Escribir "ingrese el precio del producto"
+	leer B
+	Escribir "ingrese el descuento en porcentaje"
+	leer C
+	montoDeLaCompra<- A*B
+	montoDelDescuento<- montoDeLaCompra*(C/100)
+	montoAPagar<- montoDeLaCompra-montoDelDescuento
+	Escribir "el monto de la compra es ", montoDeLaCompra
+	Escribir "el monto del descuento es ", montoDelDescuento
+	Escribir "el monto a pagar es ", montoAPagar 
+FinAlgoritmo
+
+Algoritmo EJERCICIO7
+	Escribir "ingrese el numero de horas trabajadas"
+	leer H
+	Escribir "ingrese la tarifa horaria"
+	leer T
+	sueldoBasico<- H*T
+	sueldoBruto<- (H*T)*(18/100)+(H*T)
+	sueldoNeto<- (sueldoBruto)-(12/100)*(sueldoBruto)
+	escribir "el sueldo basico es ", sueldoBasico
+	Escribir "el sueldo bruto es ", sueldoBruto
+	escribir "el sueldo neto es ", sueldoNeto
+	
+FinAlgoritmo
+
+Algoritmo ejercicio8
+	Escribir "ingrese el numero de horas trabajadas"
+	leer H
+	Escribir "ingrese la tarifa horaria"
+	Leer T
+	sueldoBruto<- H*T
+	descuentoPorEssalud<- (H*T)*(12/100)
+	descuentoPorAFP<- (H*T)*(11.5/100)
+	descuentoTotal<- descuentoPorAFP+descuentoPorEssalud
+	sueldoNeto<- sueldoBruto-descuentoTotal
+	Escribir "el sueldo bruto es ", sueldoBruto
+	Escribir "el descuento por essalud es ", descuentoPorEssalud
+	escribir "el descuento por AFP ES ", descuentoPorAFP
+	Escribir "el sueldo neto del empleado es ", sueldoNeto
+
+FinAlgoritmo
+ Algoritmo EJERCICIO9
+	Escribir "ingrese el radio del semicírculo"
+	leer R
+	Escribir "ingrese la hipotenusa"
+	Leer H
+	areaSemicirculo<- (3.141592*R^2)/2
+	areaTriangulo<- R*rc(H^2-R^2)
+	areaTotal<- areaSemicirculo+areaTriangulo
+	Escribir "el area total es ", areaTotal
+FinAlgoritmo
+
+Algoritmo ejercicicio10
+	Escribir "ingrese la velocidad"
+	leer V
+	Escribir "ingrese la distancia"
+	leer D
+	T<- D/V
+	Escribir "el tiempo es ", T	
+FinAlgoritmo
+
+
+Algoritmo ejercicio11
+	Escribir "cantidad de días"
+	leer D
+	Escribir "costo del hotel por día"
+	Leer H
+	Escribir "costo de comida por día"
+	leer C
+	Escribir "además, se agrega 100 dólares diarios para otros gastos"
+	montoDelCheque<- (H*D+C*D+100*D)
+	Escribir "el monto del cheque es ", montoDelCheque
+	
+FinAlgoritmo
+
+Algoritmo ejercicio12
+	Escribir "Ingrese la nota del alumno";
+	leer N
+	Si N<12.5 Entonces
+		Escribir "DESAPROBADO"
+	FinSi
+	si N>=12.5 & N<20 Entonces
+		Escribir "aprobado"
+	FinSi
+	si N>20 || N<0 Entonces
+		Escribir "NO EXISTE"
+		
+	FinSi
+FinAlgoritmo
+
+Algoritmo ejercicio13
+	Escribir "ingrese la cantidad de GB consumidas en un mes"
+	leer N
+	Si N<=4 Entonces
+		Escribir "Debe pagar 50 soles"
+		SiNo
+			Si N>4 & N<8 Entonces
+				Escribir "Debe pagar 85 soles por mes"
+					SiNo
+						Si N>8 Entonces
+						consumo<- 4.5*N
+						Escribir "el consumo general es ", consumo
+			
+				Fin Si
+		Fin Si
+	Fin Si
+		
+FinAlgoritmo
+
+Algoritmo ejercicio14
+	Escribir "ingrese la el promedio ponderado del alumno"
+	Leer P
+	Escribir "ingrese el numero de faltas"
+	leer F
+	Si P>=15 & F=0 & P<=20 Entonces
+		Escribir "se le otorga la beca"
+	Si 15<P & P<20 || F>0 Entonces
+		Escribir "No se le otorga la beca"
+		FinSi
+	FinSi
+	si P>20 Entonces
+		Escribir "Nota ingresada no valida"
+	Fin Si
+	
+
+
